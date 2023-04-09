@@ -4,8 +4,9 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<link rel="stylesheet" href="css/index.css">
 	<title>Sprint Challenge - Anasayfa</title>
+
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
@@ -13,41 +14,49 @@
 
 <body>
 	<div>
-		<!-- header -->
-		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
+		
+		<header >
+			<div class="container">
+				<h1 href="index.html">ERGİNEER BAR VE MANGAL</h1>
 
 				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
+				<nav class="menu">
+				<a style="color:rgb(225, 239, 230)" href="menu.html">Menü</a>
+				<a>Rezervasyonlar</a>
+				<a>Özel Teklifler</a>
+				<a>İletişim</a>
+				</nav>
+				<div class="social">
+					<i class="fa-brands fa-square-facebook"></i>
+					<i class="fa-brands fa-square-twitter"></i>
+					<i class="fa-brands fa-square-instagram"></i>
+				 <div>
 			</div>
 		</header>
 
 		<!-- gallery section -->
 		<section class="gallery">
-			<div>
+			
 				<h2>YEMEKLERİMİZ</h2>
+			<div class="projects">
 
-				img/food-avocadotoast.jpg
+				<div class="projects-img"><img src="img/food-avocadotoast.jpg"></div>
 
-				img/food-burger.jpg
+				<div class="projects-img"><img src="img/food-burger.jpg"></div>
 
-				img/food-poutine.jpg
+				<div class="projects-img"><img src="img/food-poutine.jpg"></div>
 
-				img/food-ribs.jpg
+				<div class="projects-img"><img src="img/food-ribs.jpg"></div>
 
-				img/food-sandwich.jpg
+				<div class="projects-img"><img src="img/food-sandwich.jpg"></div>
 
-				img/food-sausage.jpg
+				<div class="projects-img"><img src="img/food-sausage.jpg"></div>
 
-				img/food-steak.jpg
+				<div class="projects-img"><img src="img/food-steak.jpg"></div>
 
-				img/food-tacos.jpg
+				<div class="projects-img"><img src="img/food-tacos.jpg"></div>
 
-				img/food-wings.jpg
+				<div class="projects-img"><img src="img/food-wings.jpg"></div>
 			</div>
 		</section>
 
@@ -110,9 +119,9 @@
 					<div class="contacts">
 						<h3>İletişim</h3>
 
-						<div>
-							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
-							<a id="email" href="mailto:restoran@boomer.com">restoran@ergineer.com</a>
+						<div >
+							<a id="phone" style="color:rgb(225, 239, 230)" href="tel:999-999-9999">999-999-9999</a>
+							<a id="email" style="color:rgb(225, 239, 230)"href="mailto:restoran@boomer.com">restoran@ergineer.com</a>
 						</div>
 					</div>
 				</div>
@@ -124,16 +133,33 @@
 
 		<!-- footer -->
 		<footer>
+			<div class="birinci">
 			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
+				<h5 style="margin: 0 5rem;">Mail listemize katılın!</h5>
+				<div class="son">
+				<input style="font-size: 2rem;"
+					  type="email"
+					  name="mail"
+					  id="mail"
+					  placeholder="E-posta Adresi"
+					/>
+					<button style="font-size: 2rem;font-weight: bold;">Üye Ol</button>
+				</div>
+			</div>
+			<div class="ikinci">
+
+					<nav class="alt-menu">
+					<a>Menü</a>
+					<a>Rezervasyonlar</a>
+					<a>Özel Teklifler</a>
+					<a>İletişim</a>
+					</nav>
+					<div style="font-size: 2rem;margin: 3rem 10rem;">©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</div>
+			</div>
 			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
+			
 			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+			
 		</footer>
 	</div>
 </body>
